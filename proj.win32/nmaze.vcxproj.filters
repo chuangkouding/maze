@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\场景">
+      <UniqueIdentifier>{a20009c8-977f-429d-b145-699c8cb77e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\主角">
+      <UniqueIdentifier>{8ea659f8-8384-401c-84fb-5bf76f68aa54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\控制器">
+      <UniqueIdentifier>{7a8440cd-1d83-49d8-b6f2-019f7cfb7e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Start">
+      <UniqueIdentifier>{85c5868b-a172-4d1a-b6e8-e78e186ce305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\End">
+      <UniqueIdentifier>{b491b7ac-477c-405d-99f0-e4cce3b1dca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Start\Set">
+      <UniqueIdentifier>{25bff807-49c2-46a2-86d4-969b5c6175d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Classes\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MazeScene.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>Classes\主角</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PositionController.cpp">
+      <Filter>Classes\控制器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InstructScene.cpp">
+      <Filter>Classes\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainmenuScene.cpp">
+      <Filter>Classes\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\final2.cpp">
+      <Filter>Classes\End</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\final2_1.cpp">
+      <Filter>Classes\End</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PopLayer.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PopupLayer.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NextMaze.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SetScene.cpp">
+      <Filter>Classes\Start\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RenewScene.cpp">
+      <Filter>Classes\Start\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RenewLayer.cpp">
+      <Filter>Classes\Start\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TeachScene.cpp">
+      <Filter>Classes\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CopyrightScene.cpp">
+      <Filter>Classes\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NGLayer.cpp">
+      <Filter>Classes\Start\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DeadLayer.cpp">
+      <Filter>Classes\场景</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Classes\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MazeScene.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>Classes\主角</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PositionController.h">
+      <Filter>Classes\控制器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InstructScene.h">
+      <Filter>Classes\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainmenuScene.h">
+      <Filter>Classes\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\final2.h">
+      <Filter>Classes\End</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\final2_1.h">
+      <Filter>Classes\End</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PopLayer.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MobClickCpp.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MobClickJniHelper.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PopupLayer.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NextMaze.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SetScene.h">
+      <Filter>Classes\Start\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RenewScene.h">
+      <Filter>Classes\Start\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RenewLayer.h">
+      <Filter>Classes\Start\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TeachScene.h">
+      <Filter>Classes\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CopyrightScene.h">
+      <Filter>Classes\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NGLayer.h">
+      <Filter>Classes\Start\Set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DeadLayer.h">
+      <Filter>Classes\场景</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

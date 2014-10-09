@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="120" height="120" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="summer" tilewidth="48" tileheight="48">
+  <tileoffset x="1" y="1"/>
+  <image source="summer.png" width="384" height="672"/>
+ </tileset>
+ <layer name="块层 1" width="120" height="120">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6Grf9MTsS8krJqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq+nrkZjhB
+  </data>
+ </layer>
+ <layer name="块层 2" width="120" height="120">
+  <data encoding="base64" compression="zlib">
+   eJzt2UEOwiAAAMGm/3+0H9CK2CrdzCScqF42FYF927bdSI9XjuZYn75t+rY963v02/3u2dl1gGuMNBydYz36tunbdsUaa81dx2jfo8+zLn3b9G0bWSM/2R8/m7cW/89s30+e53/0bZvZ4+h7HzPr4jf/x/gtfdv0bRu5H5yZZw3fnm+8+k7WoG+bvm1X3Q+yBu9vm75t+rbN9HW+cR9n3B/ouS592/RtGz1ftge+pzPuB7Rcl75t+rbp26Zvm75tZ+xl9F2Xvm36tjlratO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3Td82fdv0bdO3bTfy4wGMEwUf
+  </data>
+ </layer>
+</map>

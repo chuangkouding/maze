@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="124" height="124" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="summer" tilewidth="48" tileheight="48">
+  <tileoffset x="1" y="1"/>
+  <image source="summer.png" width="384" height="672"/>
+ </tileset>
+ <tileset firstgid="113" name="hong" tilewidth="48" tileheight="48">
+  <image source="hong.png" width="240" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collidable" value="true"/>
+    <property name="Question" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="win" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="块层 1" width="124" height="124">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6Grf9NTsR8krJqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj4/EU48EQ==
+  </data>
+ </layer>
+ <layer name="块层 2" width="124" height="124">
+  <data encoding="base64" compression="zlib">
+   eJzt2sFywjAMAFGG///o3jvBKIpMpOy+mRw6gV624Fju+/V6vb1Q1yere5rH3iz2Zjnqvfqu//ba7Lqh34g0jd5Tf/ZmsTfLjjXaNbuvaO/V+zWHvVnszRJZY8/sz4/uu5b3ke195vXqw94smT2VvefKrKtXnu90L3uz2Jslch6aua+ers5bPv1O9WRvFnuz7DoPVU9+vlnszWJvlkxv5y1zVZyH2HcOe7PYmyU6H3cP/gwV5x22ncPeLPZmyc7PV69XXxXzNXvPYW8We7Nk5+fuvWeK9PF5/TnszWJvlsj66+z8ObLzE5vOZG8We7NE1+uj963eo56qPt82nsHeLFd6e0Y6z455S/Y92s/eLPZmycxKr1y6lx1Y7M1ib5aq80/X6hl8PmexN4u9WSKz78ys3N49Zc467D2XvVnszZLZS0f22vbuqeL53N5z2JvF3iy79t/qqaKfveewN4u9WarOvzWDn28We7PYm6ViXm7vOTLzNXvPZW+WHb3dr/UVnZ9X/qz77Pj/Fnv3ZW8We7NU7LftO0fF5/vsfd3H3iz2Zqk6/3a+MoPnHyz2ZrE3S3R/ffZ83HW9px3P5+rL3iy/6O3fRx/Z+bn78ZkyPfy+n8veLPZmya7P/1+/+ll9VDyf23cOe7M4P2dxPWaJPJ/b+znszWJvFuffLPZksTeLvVkyZ9mu83P5fM5ibxZ7szg/Z/F8jMXeLPZmqd5/e3l59br+AFHqCTs=
+  </data>
+ </layer>
+ <layer name="meta" width="124" height="124">
+  <data encoding="base64" compression="zlib">
+   eJzt2sFywjAMAFF+mf+/9N4JRlFkImX3zeTQCfSyBcdy36/X6+2Fuj5Z3dM89maxN8tR79V3/bfXZtcN/UakafSe+rM3i71ZdqzRrtl9RXuv3q857M1ib5bIGntmf35037W8j2zvM69XH/Zmyeyp7D1XZl298nyne9mbxd4skfPQzH31dHXe8ul3qid7s9ibZdd5qHry881ibxZ7s2R6O2+Zq+I8xL5z2JvF3izR+bh78GeoOO+w7Rz2ZrE3S3Z+vnq9+qqYr9l7Dnuz2JslOz937z1TpI/P689hbxZ7s0TWX2fnz5Gdn9h0Jnuz2Jslul4fvW/1HvVU9fm28Qz2ZrnS2zPSeXbMW7Lv0X72ZrE3S2ZWeuXSvezAYm8We7NUnX+6Vs/g8zmLvVnszRKZfWdm5fbuKXPWYe+57M1ib5bMXjqy17Z3TxXP5/aew94s9mbZtf9WTxX97D2HvVnszVJ1/q0Z/Hyz2JvF3iwV83J7z5GZr9l7Lnuz7Ojtfq2v6Py88mfdZ8f/t9i7L3uz2JulYr9t3zkqPt9n7+s+9maxN0vV+bfzlRk8/2CxN4u9WaL767Pn467rPe14Pldf9mb5RW//PvrIzs/dj8+U6eH3/Vz2ZrE3S3Z9/v/61c/qo+L53L5z2JvF+TmL6zFL5Pnc3s9hbxZ7szj/ZrEni71Z7M2SOct2nZ/L53MWe7PYm8X5OYvnYyz2ZrE3S/X+28vLq9f1B/w4CWw=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="124" height="124">
+  <object name="PlayerPoint" x="80" y="5592" width="72" height="88"/>
+ </objectgroup>
+</map>
